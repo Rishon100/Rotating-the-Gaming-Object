@@ -39,28 +39,7 @@ Stop
 ## Program:
 
 
-     using System.Collections;
-     using System.Collections.Generic;
-     using UnityEngine;
-
-     public class RotateCamera : MonoBehaviour
-    {
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-            transform.RotateAround (Vector3.forward,Vector3.left,40*Time.deltaTime );
-        }
-    }
-
 ## Output:
-
-![Screenshot 2025-03-16 175153](https://github.com/user-attachments/assets/bf6ac7fb-a363-4d6e-877b-9bf52bf13f21)
 
 ## Result:
 
